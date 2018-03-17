@@ -27,7 +27,8 @@ border-width: thin;
 }
 
 .column {
-  display: flex;
+
+  flex-direction: column;
   border-style: solid;
   border-width: thin;
 }
@@ -35,20 +36,15 @@ border-width: thin;
 .column.large {
   width: 630px;
   display: flex;
-  flex-direction: column;
+  margin-right: 32px;
+  align-items: flex-start;
   justify-content: space-between;
-  display: flex;
-
 }
- p {
+
+p {
   border-style: solid;
   border-width: thin;
 }
-.sec2, .sec3 {
-  border-style: solid;
-  border-width: thin;
-}
-
 
 
 .column.medium {
@@ -56,16 +52,15 @@ border-width: thin;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: flex;
-  border-style: solid;
-  border-width: thin;
+
 }
 
 .column.small {
   width: 240px;
   display: flex;
   justify-content: space-between;
-  display: flex;
+  align-items: flex-end;
+
   border-style: solid;
   border-width: thin;
 }

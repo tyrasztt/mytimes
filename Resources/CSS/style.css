@@ -1,0 +1,17 @@
+.header, .logo, .nav {
+  display: flex;
+}
+.header {
+  width: 100%;
+  justify-content: space-between;
+}
+.nav {
+  width: 20%;
+  justify-content: space-around;
+}
+
+hr {
+border-width: thin;
+
+
+}

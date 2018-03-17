@@ -31,22 +31,31 @@ border-width: thin;
   border-style: solid;
   border-width: thin;
 }
-.column {
 
-}
 .column.large {
   width: 630px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   display: flex;
+
+}
+ p {
   border-style: solid;
   border-width: thin;
 }
+.sec2, .sec3 {
+  border-style: solid;
+  border-width: thin;
+}
+
+
 
 .column.medium {
   width: 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   display: flex;
   border-style: solid;
   border-width: thin;

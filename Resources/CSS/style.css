@@ -38,7 +38,7 @@ p {
 }
 
 
-.column .large, .column .lrgsec2, .column .large .lrgsec2 .img2 .txtpic2, .column .lrgsec3, .column .large .img1, .column .large .img1 .txtpic1 {
+.column .large, .column .lrgsec2, .column .large .lrgsec2 .img2 .txtpic2, .column .lrgsec3, .column .large .lrgsec3 .img3, .column .large .img1, .column .large .img1 .txtpic1 {
   width: 630px;
   margin-right: 32px;
   border-style: solid;
@@ -63,6 +63,7 @@ p {
   margin-right: 32px;
   font-size: 40px;
   margin-top: 0;
+  text-align: left;
 }
 
 .column .large .lrgsec2 .img2 {
@@ -78,9 +79,17 @@ p {
   text-align: center;
 }
 
+.column .large .lrgsec3 .img3 {
+  display: flex;
+  Height: 300px;
+  background: url('../images/img-story-3.png');
+}
+
 .txtpic3 p {
   border-style: solid;
   border-width: thin;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .column .medium, .column .medsec1, .column .medsec2 {

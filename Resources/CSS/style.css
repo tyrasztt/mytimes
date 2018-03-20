@@ -6,9 +6,8 @@
   justify-content: space-between;
   border-style: solid;
   border-width: thin;
-
-
 }
+
 .nav {
   width: 20%;
   justify-content: space-around;
@@ -39,7 +38,7 @@ p {
 }
 
 
-.column .large, .column .lrgsec2, .column .lrgsec3, .column .large .img1, .column .large .img1 .txtpic1 {
+.column .large, .column .lrgsec2, .column .large .lrgsec2 .img2 .txtpic2, .column .lrgsec3, .column .large .img1, .column .large .img1 .txtpic1 {
   width: 630px;
   margin-right: 32px;
   border-style: solid;
@@ -64,16 +63,19 @@ p {
   margin-right: 32px;
   font-size: 40px;
   margin-top: 0;
-
-
-
-
 }
 
+.column .large .lrgsec2 .img2 {
+  display: flex;
+  Height: 300px;
+  background: url('../images/img-story-2.png');
+}
 
 .txtpic2 p {
   border-style: solid;
   border-width: thin;
+  margin-top: 0;
+  text-align: center;
 }
 
 .txtpic3 p {

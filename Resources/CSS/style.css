@@ -26,6 +26,12 @@ hr {
 border-width: thin;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .column {
   display:flex;
   border-style: solid;
@@ -67,10 +73,12 @@ border-width: thin;
   border-width: thin;
 }
 
+/* Small Column Section*/
 
 .column .small, .column .smsec1 {
   width: 240px;
   justify-content:flex-end;
+  align-content: center;
   border-style: solid;
   border-width: thin;
 }

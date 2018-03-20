@@ -20,55 +20,57 @@
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-
 }
 
 hr {
 border-width: thin;
 }
-/*
+
 .column {
-  display: flex;
-  flex-direction: column;
+  display:flex;
   border-style: solid;
   border-width: thin;
-}*/
+}
 
-.column .large {
+.column .large, .column .lrgsec2, .column .lrgsec3 {
   width: 630px;
   margin-right: 32px;
   border-style: solid;
   border-width: thin;
-
 }
 
-.column .large .sec2 .sec3 p h2 {
+.txtpic1 p {
   border-style: solid;
   border-width: thin;
 }
 
-/*
-.column .large. .sec3 p h2 {
+.txtpic2 p {
   border-style: solid;
   border-width: thin;
 }
-*/
 
-.column .medium {
+.txtpic3 p {
+  border-style: solid;
+  border-width: thin;
+}
+
+.column .medium, .column .medsec1, .column .medsec2 {
   width: 300px;
-  display: flex;
-  flex-direction: column;
   margin-right: 32px;
-
+  justify-content: center;
+  border-style: solid;
+  border-width: thin;
 }
 
-.column .small {
-  width: 240px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+.txtpic4 p {
+  border-style: solid;
+  border-width: thin;
+}
 
+
+.column .small, .column .smsec1 {
+  width: 240px;
+  justify-content:flex-end;
   border-style: solid;
   border-width: thin;
 }
